@@ -1,0 +1,89 @@
+.card-body{
+display:flex;
+flex-direction: column;
+text-align:center;
+background-color: grey;
+}
+
+.card-img-top{
+    height: 365px;
+    opacity: 0.5;
+}
+
+.card-img-top:hover{
+    opacity: 1;
+}
+
+
+.reward_style{
+    display: inline-block;
+    position:absolute;
+    text-align:center;
+    color: black;
+    font-size:30px;
+    bottom: 400px;
+    border-radius: 10px;
+    width:80%;
+    left:10%;
+    top:20%;
+}
+
+.reward:hover .reward_style{
+    opacity: 0;
+}
+
+.dead_style{
+    display: inline-block;
+    position:absolute;
+    text-align:center;
+    color: black;
+    font-size:30px;
+    bottom: 400px;
+    border-radius: 10px;
+    width:80%;
+    left:10%;
+    top:10%;
+
+}
+
+.reward_dwarf_style{
+    display: inline-block;
+    position:absolute;
+    text-align:center;
+    color: black;
+    font-size:30px;
+    bottom: 400px;
+    border-radius: 10px;
+    width:80%;
+    left:10%;
+    top:20%;
+}
+
+.dead:hover .dead_style{
+    opacity: 0;
+}
+
+.reward_dwarf:hover .reward_dwarf_style{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
